@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pfpMoguda"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/we_swing_icon"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/mogudaTxt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pfpMoguda"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/horesTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mogudaTxt"
+            android:layout_toRightOf="@id/pfpMoguda"
+            android:text="" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_toRightOf="@id/mogudaTxt"
+            android:src="@drawable/right_arrow"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

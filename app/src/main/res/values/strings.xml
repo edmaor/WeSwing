@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">WeSwing</string>
+
+    <string-array name="genero">
+        <item>Home</item>
+        <item>Dona</item>
+        <item>Altre</item>
+    </string-array>
+
+    <string-array name="idioma">
+        <item>Español</item>
+        <item>English</item>
+        <item>Català</item>
+    </string-array>
+
+    <string-array name="pais">
+        <item>España</item>
+        <item>Andorra La Vella</item>
+        <item>Francia</item>
+        <item>Alemanya</item>
+        <item>Italia</item>
+        <item>Suissa</item>
+    </string-array>
+
+    <string-array name="ciudad">
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Andorra la Vella</item>
+        <item>Berlin</item>
+        <item>Milan</item>
+        <item>Roma</item>
+        <item>Paris</item>
+        <item>Mont Pelier</item>
+    </string-array>
+
+    <string-array name="ciutats2">
+        <item>Totes les zones</item>
+        <item>Catalunya</item>
+        <item>Madrid</item>
+        <item>Valencia</item>
+        <item>Navarra</item>
+    </string-array>
+
+    <string-array name="follower">
+        <item>Follower</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="avis_msg">Es notificara a l\'escola per autoritzarte com a professor</string>
+    <string name="avis_ok">D\'acord</string>
+    <string name="avis_nook">Cancel•la</string>
+    <string name="sample_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at massa aliquam sapien feugiat dictum. Proin viverra, eros tincidunt molestie tempus, sapien leo venenatis nisl, sit amet ultricies magna felis tempus elit. Nulla sit amet pharetra elit. Nunc ut eros id massa tristique congue. Sed quis suscipit nisl, nec convallis neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas mi mauris, accumsan ut imperdiet quis, facilisis id lorem. Morbi convallis condimentum mi, et porta nisl egestas id. Praesent a sem pretium, condimentum enim a, cursus mi. Integer auctor, tortor eu sagittis tincidunt, lectus augue consequat tellus, id pellentesque orci leo eu mauris. In lobortis, ex eget aliquet tincidunt, odio risus luctus quam, ac vulputate est ex imperdiet velit. Nunc ac sagittis elit, nec finibus lectus. Fusce accumsan, nunc aliquam vestibulum gravida, arcu turpis feugiat nulla, et efficitur tortor velit quis justo. Suspendisse sed egestas nisi. Proin consectetur posuere risus, sit amet ornare arcu convallis ac.  Quisque dictum nulla quis enim sollicitudin faucibus. Duis accumsan magna ipsum, vel sagittis nulla sollicitudin at. Pellentesque cursus finibus turpis id cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt, urna vitae mattis convallis, leo nulla viverra lacus, vitae semper est ex eu metus. Praesent porta justo eget finibus aliquet. Integer at lorem sollicitudin, aliquet neque id, interdum massa.</string>
+    <string name="alumnes">Alumnes</string>
+    <string name="user">Professors</string>
+    <string name="mogudes">Mogudes</string>
+    <string name="moguda">MOGUDA</string>
+    <string name="amics">AMICS</string>
+    <string name="tots">TOTS</string>
+    <string name="assistire">ASSISTIRE</string>
+    <string name="filter_sample">Filtres: Madrid, Espanya</string>
+    <string name="register">REGISTER</string>
+</resources>

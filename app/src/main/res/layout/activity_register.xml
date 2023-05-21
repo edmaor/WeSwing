@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCCCCC"
+    tools:context=".Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/NameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint=" Nombre: "
+                android:paddingVertical="12dp"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:entries="@array/genero"
+                android:paddingVertical="14dp"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/mailEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:hint=" Mail: "
+                android:paddingVertical="12dp"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/contraEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:hint=" Contraseña: "
+                android:paddingVertical="12dp"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnLang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="14dp"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:entries="@array/idioma"
+                android:textSize="18sp"/>
+
+
+            <Spinner
+                android:id="@+id/spnCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="14dp"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:entries="@array/pais"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/spnCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="14dp"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:entries="@array/ciudad"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:id="@+id/poblacionEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:hint=" Poblacion: "
+                android:paddingVertical="12dp"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnFollower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:entries="@array/follower"
+                android:paddingVertical="14dp"
+                android:textSize="18sp" />
+            
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/dancerSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10dp"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:text=" Dancer"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/teacherSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10dp"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:text=" Teacher"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/musicSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10dp"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:text=" Music" />
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPLOAD PICTURE"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:alpha="0.45"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
